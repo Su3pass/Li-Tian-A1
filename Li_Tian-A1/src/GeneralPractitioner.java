@@ -1,19 +1,19 @@
 public class GeneralPractitioner extends HealthProfessional {
     private String referralRecord; // Unique instance variable to represent referral records
 
-    // Default constructor
+
     public GeneralPractitioner() {
         super();
         this.referralRecord = "No records"; // Default value
     }
 
-    // Parameterized constructor to initialize all instance variables
+
     public GeneralPractitioner(String id, String name, String bio, String title, String department, String specialty, String scheduleInfo, String referralRecord) {
         super(id, name, bio, title, department, specialty, scheduleInfo);
         this.referralRecord = referralRecord;
     }
 
-    // Getter and Setter methods
+
     public String getReferralRecord() {
         return referralRecord;
     }
@@ -22,7 +22,7 @@ public class GeneralPractitioner extends HealthProfessional {
         this.referralRecord = referralRecord;
     }
 
-    // Method to display detailed information
+
     public void printDetails() {
         System.out.println("Health Professional Type: General Practitioner");
         System.out.println("Health Professional Details:");
