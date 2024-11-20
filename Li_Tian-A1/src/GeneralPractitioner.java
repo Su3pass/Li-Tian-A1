@@ -22,7 +22,7 @@ public class GeneralPractitioner extends HealthProfessional {
         this.referralRecord = referralRecord;
     }
 
-
+    @Override
     public void printDetails() {
         System.out.println("Health Professional Type: General Practitioner");
         System.out.println("Health Professional Details:");
@@ -35,4 +35,5 @@ public class GeneralPractitioner extends HealthProfessional {
         System.out.println("Schedule Info: " + getScheduleInfo());
         System.out.println("Referral Record: " + referralRecord);
     }
+
 }

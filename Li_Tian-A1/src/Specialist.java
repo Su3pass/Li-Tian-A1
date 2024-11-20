@@ -33,7 +33,7 @@ public class Specialist extends HealthProfessional {
         this.patientLimit = patientLimit;
     }
 
-
+    @Override
     public void printDetails() {
         System.out.println("Health Professional Type: Specialist");
         System.out.println("Health Professional Details:");

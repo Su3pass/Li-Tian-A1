@@ -82,4 +82,13 @@ public class HealthProfessional {
     public void setScheduleInfo(String scheduleInfo) {
         this.scheduleInfo = scheduleInfo;
     }
+    public void printDetails() {
+        System.out.println("ID: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Bio: " + bio);
+        System.out.println("Title: " + title);
+        System.out.println("Department: " + department);
+        System.out.println("Specialty: " + specialty);
+        System.out.println("Schedule Info: " + scheduleInfo);
+    }
 }
